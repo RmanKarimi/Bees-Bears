@@ -24,6 +24,7 @@ The project is organized into three separate apps to improve modularity and main
    ```sh
        python -m venv venv
        uv venv venv
+       source venv/bin/activate
    ```
 2. Install dependencies using `uv`.
    ```sh
@@ -48,7 +49,7 @@ The project is organized into three separate apps to improve modularity and main
    ```sh
        python manage.py createsuperuser
    ```
-6. You can test the APIs using http://localhost:8001/swagger and Django admin panel using http://localhost:8001/admin if you have created a superuser using the command in step 4.
+6. You can test the APIs using http://localhost:8000/swagger and Django admin panel using http://localhost:8000/admin if you have created a superuser using the command in step 4.
 
 7. Run tests using:
    ```sh
